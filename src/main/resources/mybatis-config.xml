@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+	PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- XML Mapper를 이용할때 매번 parameterType이나 resultType을 패키지까지 포함된 클래스명을 작성하는 번거로움을
+	    줄이기 위해서 설정한다. -->
+	<typeAliases>
+		<package name="org.zerock.domain"/>
+	</typeAliases>
+</configuration>
